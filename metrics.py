@@ -40,8 +40,7 @@ def smooth(signal: Sequence[float], window: int = 5, method: str = "moving_avera
     Suaviza a serie de angulos antes da deteccao de picos/vales.
 
     O ruido de estimativa de pose (MediaPipe) pode gerar maximos e minimos
-    locais espurios; suavizar reduz falsos ciclos na deteccao (ver secao 3
-    e 7 da especificacao: "limitacoes declaradas").
+    locais espurios; suavizar reduz falsos ciclos na deteccao.
 
     Parameters
     ----------
